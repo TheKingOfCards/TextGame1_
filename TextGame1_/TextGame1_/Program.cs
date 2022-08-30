@@ -39,6 +39,7 @@ while (pText != "forward" && pText != "right"){
 
 void monster(){
     while(mHealth != 0){
+        pMiss = -1;
         pText = "";
         pText = Console.ReadLine();
     if(pText != "run" && pText != "attack" && pText != "healthpotion"){
