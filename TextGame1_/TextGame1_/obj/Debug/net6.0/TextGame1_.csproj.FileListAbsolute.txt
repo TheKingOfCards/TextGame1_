@@ -1,0 +1,15 @@
+C:\Users\samuel.antonsson\Desktop\C# Code\TextGame1_\TextGame1_\TextGame1_\bin\Debug\net6.0\TextGame1_.exe
+C:\Users\samuel.antonsson\Desktop\C# Code\TextGame1_\TextGame1_\TextGame1_\bin\Debug\net6.0\TextGame1_.deps.json
+C:\Users\samuel.antonsson\Desktop\C# Code\TextGame1_\TextGame1_\TextGame1_\bin\Debug\net6.0\TextGame1_.runtimeconfig.json
+C:\Users\samuel.antonsson\Desktop\C# Code\TextGame1_\TextGame1_\TextGame1_\bin\Debug\net6.0\TextGame1_.dll
+C:\Users\samuel.antonsson\Desktop\C# Code\TextGame1_\TextGame1_\TextGame1_\bin\Debug\net6.0\TextGame1_.pdb
+C:\Users\samuel.antonsson\Desktop\C# Code\TextGame1_\TextGame1_\TextGame1_\obj\Debug\net6.0\TextGame1_.csproj.AssemblyReference.cache
+C:\Users\samuel.antonsson\Desktop\C# Code\TextGame1_\TextGame1_\TextGame1_\obj\Debug\net6.0\TextGame1_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samuel.antonsson\Desktop\C# Code\TextGame1_\TextGame1_\TextGame1_\obj\Debug\net6.0\TextGame1_.AssemblyInfoInputs.cache
+C:\Users\samuel.antonsson\Desktop\C# Code\TextGame1_\TextGame1_\TextGame1_\obj\Debug\net6.0\TextGame1_.AssemblyInfo.cs
+C:\Users\samuel.antonsson\Desktop\C# Code\TextGame1_\TextGame1_\TextGame1_\obj\Debug\net6.0\TextGame1_.csproj.CoreCompileInputs.cache
+C:\Users\samuel.antonsson\Desktop\C# Code\TextGame1_\TextGame1_\TextGame1_\obj\Debug\net6.0\TextGame1_.dll
+C:\Users\samuel.antonsson\Desktop\C# Code\TextGame1_\TextGame1_\TextGame1_\obj\Debug\net6.0\refint\TextGame1_.dll
+C:\Users\samuel.antonsson\Desktop\C# Code\TextGame1_\TextGame1_\TextGame1_\obj\Debug\net6.0\TextGame1_.pdb
+C:\Users\samuel.antonsson\Desktop\C# Code\TextGame1_\TextGame1_\TextGame1_\obj\Debug\net6.0\TextGame1_.genruntimeconfig.cache
+C:\Users\samuel.antonsson\Desktop\C# Code\TextGame1_\TextGame1_\TextGame1_\obj\Debug\net6.0\ref\TextGame1_.dll
