@@ -17,7 +17,7 @@ Console.WriteLine("Type To Move");
 
 start();
 void start(){
-while (pText != "forward" && pText != "right"){
+while (pText != "forward" && pText != "right" && pText != "clear"){
     pText = Console.ReadLine();
     if (pText != "forward" && pText != "right"){
         Console.WriteLine("Try Something Diffrent");
@@ -33,6 +33,9 @@ while (pText != "forward" && pText != "right"){
     if (pText == "right"){
     chest();
     }
+    if(pText == "clear"){
+        Console.Clear();
+    }
 }
 }
 
@@ -42,7 +45,7 @@ void monster(){
         pMiss = -1;
         pText = "";
         pText = Console.ReadLine();
-    if(pText != "run" && pText != "attack" && pText != "healthpotion"){
+    if(pText != "run" && pText != "attack" && pText != "healthpotion" && pText != "clear"){
         Console.WriteLine("Try Something Else");
     }
         monsterD = generator.Next(20,30);
@@ -50,20 +53,20 @@ void monster(){
     if (pText == "attack"){
         pMiss = generator.Next(100);
     }
-    if (pMiss <= 50 && pMiss >=1){
+    if (pMiss <= 40 && pMiss >=0){
         mHealth = mHealth - playerD;
         Console.WriteLine("You Attacked The Monster");
         Console.WriteLine($"Dealing {playerD}");
         Console.WriteLine($"Monster Health {mHealth}");
     }
-    else if (pMiss >= 50 && pMiss <=100){
+    else if (pMiss >= 41 && pMiss <=100){
         int monsterMiss = -1;
         monsterMiss = generator.Next(100);
         if (monsterMiss >= 50 && monsterMiss<=100){
             Console.WriteLine("You Try To Attack The Monster");
             Console.WriteLine("You Miss But Manage To Get Away Before Getting Hit Yourself");
         }
-        if (monsterMiss <= 50 && monsterMiss >= 1){
+        if (monsterMiss <= 50 && monsterMiss >= 0){
             pHealth = pHealth - monsterD;
             Console.WriteLine("You Try To Attack The Monster");
             Console.WriteLine("But You Miss And The Monster Attacks You Back");
@@ -93,6 +96,9 @@ void monster(){
         runAway();
     }
     }
+    if (pText == "clear"){
+        Console.Clear();
+    }
 }
 
 
@@ -109,7 +115,7 @@ void runAway(){
         Console.WriteLine($"The Monster Dealt {monsterD}");
         Console.WriteLine($"Your Health {pHealth}");
     }
-    if (rRun <= 5){
+    if (rRun <= 10){
         Console.Clear();
         Console.WriteLine("You Ran Away");
         Console.WriteLine("Leaving Your Village To It's DOOOOOM!!!!!");
@@ -145,8 +151,11 @@ void chest(){
             pText = "";
             start();
     }
-    
-}
+    }
+    if(pText == "clear"){
+        Console.Clear();
+    }
+
 
 
 Console.ReadLine();
