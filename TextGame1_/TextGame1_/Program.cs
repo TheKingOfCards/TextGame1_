@@ -33,9 +33,6 @@ while (pText != "forward" && pText != "right" && pText != "clear"){
     if (pText == "right"){
     chest();
     }
-    if(pText == "clear"){
-        Console.Clear();
-    }
 }
 }
 
@@ -96,9 +93,6 @@ void monster(){
         runAway();
     }
     }
-    if (pText == "clear"){
-        Console.Clear();
-    }
 }
 
 
@@ -146,16 +140,12 @@ void chest(){
             start();
         }
     }else{
-        Console.WriteLine("Dumbass, You Have Already Explored This");
-        Console.WriteLine("Did You Really Thing I Have The Will To Add More Stuff");
+        Console.WriteLine("You Have Already Explored This Way");
             pText = "";
             start();
     }
     }
-    if(pText == "clear"){
-        Console.Clear();
-    }
-
+    
 
 
 Console.ReadLine();
